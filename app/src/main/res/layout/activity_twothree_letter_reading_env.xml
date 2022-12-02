@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoThreeLetterReadingEnvActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/signuptextview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/catbackgr">
+
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="148dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonblack"
+            android:text="මීලග​     ->"
+            android:textColor="@color/design_default_color_on_secondary"
+
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.567"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.642" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="162dp"
+            android:layout_height="134dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.458"
+            app:srcCompat="@drawable/catplay" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="263dp"
+            android:layout_height="78dp"
+            android:text=" කිටීගෙ කතාව​"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.647"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.371" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

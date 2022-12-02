@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rootview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/titlebar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="ළමයා හපනා"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/contents_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/titlebar_layout">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:text="දැන් කියන්න.."/>
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imgVoice"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/tv1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ra"/>
+            <LinearLayout
+                android:id="@+id/llTwoBtn"
+                android:padding="10dp"
+                android:layout_below="@id/imgVoice"
+                android:weightSum="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnListen"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="අහන්න"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/btnSpeak"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="කියන්න"
+                    android:background="@color/colorAccent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llCorrect"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_below="@id/imgVoice"
+                android:weightSum="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnCorrect"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="ඊලඟ"
+                    android:background="@color/colorAccent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llWrong"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_below="@id/imgVoice"
+                android:weightSum="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnTryAgain"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="නැවත බලමු"
+                    android:background="@color/colorAccent"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/btnSkip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="මග හරින්න"
+                    android:background="@color/colorAccent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

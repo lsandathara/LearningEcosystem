@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    tools:context=".TwoLetterIdentifyActivity">
+    <ImageView
+        android:id="@+id/imgDestRata"
+        android:tint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="450dp"
+        android:layout_marginBottom="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rata" />
+
+    <ImageView
+        android:id="@+id/imgDestGasa"
+        android:tint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="390dp"
+        android:layout_marginBottom="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gasa" />
+    <ImageView
+        android:id="@+id/imgDestMala"
+        android:tint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="190dp"
+        android:layout_marginBottom="340dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mala" />
+    <ImageView
+        android:id="@+id/imgDestDara"
+        android:tint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="620dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dara" />
+    <ImageView
+        android:id="@+id/imgDestKata"
+        android:tint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginBottom="190dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kata" />
+
+    <RelativeLayout
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:background="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgRata"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rata" />
+                <ImageView
+                    android:id="@+id/imgKata"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kata" />
+                <ImageView
+                    android:id="@+id/imgMala"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mala" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_below="@id/ll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgDara"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dara" />
+                <ImageView
+                    android:id="@+id/imgGasa"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gasa" />
+            </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

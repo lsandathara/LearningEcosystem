@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arunalu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".child_progress"></activity>
+        <activity android:name=".child" />
+        <activity android:name=".MapTrainingHome"></activity>
+        <activity android:name=".LetterIdentifyActivity"></activity>
+        <activity android:name=".CorrectDialogActivity"></activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".ThreeLetterIdentifyAtivity"></activity>
+        <activity android:name=".TwoLetterIdentifyActivity"></activity>
+        <activity android:name=".TreasureMapHome" />
+        <activity android:name=".Questions" />
+        <activity android:name=".Methods" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                         <action android:name="android.intent.action.MAIN" />
+
+
+                         <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MixLettersIntervention"></activity>
+        <activity android:name=".TwoThreeLetterInterventionActivity" />
+        <activity android:name=".MixLettersReadingEnvActivity" />
+        <activity android:name=".SolutionMethod_home" />
+        <activity android:name=".TwoThreeLetterReadingEnvActivity" />
+        <activity android:name=".HintActivity" />
+        <activity android:name=".screening_main2" />
+        <activity android:name=".Screening_env1"></activity>
+        <activity android:name=".VideoBasedSolutionTest4">
+<!--             <intent-filter>-->
+<!--             <action android:name="android.intent.action.MAIN" />-->
+
+
+<!--             <category android:name="android.intent.category.LAUNCHER" />-->
+<!--             </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".VideoBasedSolutionTest3"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".viewSubUser" />
+        <activity android:name=".videoBasedSolution" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".videoBasedStartup" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".levelReport"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VideoBasedSolutionTest6"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VideoBasedSolutionTest2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VideoBasedSolutionTest1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VideoBasedScreeningTest3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VideoBasedScreeningTest2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ResultDialogVideoReading" />
+        <activity
+            android:name=".VideoBasedScreeningTest1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".addSubUser" />
+<!--        <activity android:name=".Screening_env2"-->
+<!--        android:theme="@style/AppTheme.NoActionBar" >-->
+<!--        </activity>-->
+
+            <activity android:name=".StoryBuildingHome1"
+            android:label="@string/app_name"></activity>
+        <activity android:name=".login">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".signup">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+</manifest>
